@@ -6,7 +6,7 @@
         (Über mich)
       </template>
       <template v-slot:text>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Hi! Ich bin Luca, ein (Junior) Fullstack-Entwickler mit Fokus auf Frontend-Entwicklung. Seit fast 3 Jahren erstelle, warte und erweitere ich Websites für Kunden aus den unterschiedlichsten Branchen. Dabei lege ich Wert auf Sorgfalt und sauberen Code, damit alles reibungslos funktioniert.  
       </template>
     </Text>
     <Stack>(Techstack)</Stack>
