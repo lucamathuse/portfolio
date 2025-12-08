@@ -9,14 +9,7 @@
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       </template>
     </Text>
-    <Text id="techstack">
-      <template v-slot:title>
-        (Techstack)
-      </template>
-      <template v-slot:text>
-        HTML, CSS / SCSS, Tailwind, JavaScript (inkl. Vue.js & Nuxt.js), Playwright, etc.
-      </template>
-    </Text>
+    <Stack>(Techstack)</Stack>
     <Accordion id="projekte">(Projekte)</Accordion>
     <Contact>(Kontakt)</Contact>
     <Footer></Footer>

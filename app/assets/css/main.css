@@ -3,7 +3,7 @@
 @import "./typo.css";
 @import "./vars.css";
 
-@custom-variant dark (&:where(.dark, .dark *));
+
 
 body {
     @apply bg-primary dark:bg-secondary
