@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper my-24 flex flex-col gap-6">
+  <div class="wrapper my-24 flex flex-col gap-4">
     <div class="title">
       <h2>
         <slot name="title"></slot>

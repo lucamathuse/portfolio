@@ -71,7 +71,7 @@ h2{
     font-size: 1.3rem;
     font-family: 'Space Grotesk';
     font-weight: 500;
-    line-height: .8;
+    line-height: 1;
     @apply text-accent dark:text-primary
 }
 
@@ -102,19 +102,11 @@ span{
     font-size: 1rem;
     font-family: 'Space Grotesk';
     font-weight: 300;
-    padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+    padding: 0.3rem 0.8rem 0.3rem 0.8rem;
     width: fit-content;
     @apply text-secondary dark:text-primary border-2 border-secondary dark:border-primary rounded-full
 }
-
-@media (min-width: 1024px) {
-  span {
-    font-size: 1.1rem;
-    padding: 0.5rem 1rem 0.5rem 1rem;
-  }
-}
-
-a{
+.footer a{
     font-size: 1rem;
     font-family: 'Space Grotesk';
     font-weight: 300;
