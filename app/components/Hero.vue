@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper mt-36">
+  <div class="wrapper mt-16 lg:mt-36 ">
     <h1>
       <slot>Luca <br /> Mathuse</slot>
     </h1>
