@@ -99,12 +99,19 @@ p{
 }
 
 span{
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-family: 'Space Grotesk';
     font-weight: 300;
-    padding: 0.5rem 1rem 0.5rem 1rem;
+    padding: 0.5rem 0.8rem 0.5rem 0.8rem;
     width: fit-content;
     @apply text-secondary dark:text-primary border-2 border-secondary dark:border-primary rounded-full
+}
+
+@media (min-width: 1024px) {
+  span {
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+  }
 }
 
 a{
