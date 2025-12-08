@@ -1,0 +1,23 @@
+[
+    {
+        "id": "01",
+        "title": "Atlernatly",
+        "stack": ["React Native", "Expo"],
+        "description": "Alternatly ist eine mit React Native und Expo entwickelte mobile App für Liebhaber alternativer Mode (Goth, Grunge, Punk und mehr), mit der sie einzigartige Kleidungsstücke kaufen, verkaufen und tauschen können – eine Alternative zu Vinted für Fans alternativer Mode.",
+        "link": "https://github.com/lucamathuse/alternatly"
+    },
+    {
+        "id": "02",
+        "title": "Ferienwohnung Nima",
+        "stack": ["Statamic", "Antlers", "Tailwind"],
+        "description": "Dieses Projekt ist die Neuaufsetzung der Website von Ferienwohnung Nima. Ziel ist es, eine moderne, benutzerfreundliche und responsive Website zu erstellen, die Gästen alle wichtigen Informationen zur Ferienwohnung übersichtlich bereitstellt und eine einfache Kontaktaufnahme ermöglicht. Die Website wird mit dem Statamic CMS umgesetzt, um eine flexible und leicht zu verwaltende Inhaltsverwaltung zu gewährleisten.",
+        "link": "https://github.com/lucamathuse/ferienwohnung-nima"
+    },
+    {
+        "id": "03",
+        "title": "Block Creator",
+        "stack": ["Bash"],
+        "description": "Dieses kleine Skript vereinfacht die Erstellung von Advanced Custom Fields (ACF) Pro-Blöcken, indem es die erforderlichen Verzeichnisse und Dateien mit Standardinhalten in Ihrem Blockverzeichnis generiert. Es optimiert Ihren Arbeitsablauf, indem es die Ersteinrichtung automatisiert, sodass Sie sich auf die Erstellung benutzerdefinierter Blockfunktionen konzentrieren können.",
+        "link": "https://github.com/lucamathuse/block-creator"
+    }
+]

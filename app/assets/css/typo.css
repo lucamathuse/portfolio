@@ -1,0 +1,83 @@
+/* FONT IMPORT */
+
+/* space-grotesk */
+@font-face {
+  font-family: 'Space Grotesk';
+  font-weight: 300 700;
+  src: url('../fonts/SpaceGrotesk.woff2');
+}
+
+/* space-mono-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/space-mono-v17-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* space-mono-italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Space Mono';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/space-mono-v17-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* space-mono-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/space-mono-v17-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* space-mono-700italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Space Mono';
+  font-style: italic;
+  font-weight: 700;
+  src: url('../fonts/space-mono-v17-latin-700italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* FONT CONFIG */
+h1{
+    font-size: 15rem;
+    font-family: 'Space Grotesk';
+    font-weight: 700;
+    line-height: .8;
+    @apply text-secondary dark:text-primary
+}
+
+h2{
+    font-size: 1.5rem;
+    font-family: 'Space Grotesk';
+    font-weight: 500;
+    line-height: .8;
+    @apply text-accent dark:text-primary
+}
+
+h3{
+    font-size: 4rem;
+    font-family: 'Space Grotesk';
+    font-weight: 300;
+    line-height: .8;
+    @apply text-secondary dark:text-primary
+}
+
+p{
+    font-size: 3rem;
+    font-family: 'Space Grotesk';
+    font-weight: 300;
+    line-height: 1.1;
+    @apply text-secondary dark:text-primary
+}
+
+span{
+    font-size: 1.3rem;
+    font-family: 'Space Grotesk';
+    font-weight: 300;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    width: fit-content;
+    @apply text-secondary dark:text-primary border-2 border-secondary dark:border-primary rounded-full
+}

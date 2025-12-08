@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@import "./typo.css";
+@import "./vars.css";
+
+body {
+    @apply bg-primary dark:bg-secondary
+}
+
+.wrapper{
+    padding: 0 2.5% 0 2.5%;
+}
+
+.dotted-line{
+    border: 2px dashed currentColor;
+    border-image: linear-gradient(to right, black 50%, transparent 50%) 1;
+    border-image-slice: 1;
+    border-image-width: 2px;
+    border-image-outset: 0;
+    border-image-repeat: round;
+}
