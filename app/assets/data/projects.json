@@ -1,7 +1,7 @@
 [
     {
         "id": "01",
-        "title": "Atlernatly",
+        "title": "Alternatly",
         "stack": ["React Native", "Expo"],
         "description": "Alternatly ist eine mit React Native und Expo entwickelte mobile App für Liebhaber alternativer Mode (Goth, Grunge, Punk und mehr), mit der sie einzigartige Kleidungsstücke kaufen, verkaufen und tauschen können – eine Alternative zu Vinted für Fans alternativer Mode.",
         "link": "https://github.com/lucamathuse/alternatly"

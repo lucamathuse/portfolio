@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper h-screen flex items-end">
+  <div class="wrapper h-[50vh] xl:h-screen flex items-end">
     <h1>
       <slot>Luca <br /> Mathuse</slot>
     </h1>

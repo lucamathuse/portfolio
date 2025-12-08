@@ -1,7 +1,7 @@
 <template>
   <div>
     <Hero>LUCA <br /> MATHUSE</Hero>
-    <Text>
+    <Text id="techstack">
       <template v-slot:title>
         (Techstack)
       </template>
@@ -9,7 +9,7 @@
         HTML, CSS / SCSS, Tailwind, JavaScript (inkl. Vue.js & Nuxt.js), Playwright, etc.
       </template>
     </Text>
-    <Text>
+    <Text id="über-mich">
       <template v-slot:title>
         (Über mich)
       </template>
@@ -17,6 +17,7 @@
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </template>
     </Text>
-    <Accordion>(Projekte)</Accordion>
+    <Accordion id="projekte">(Projekte)</Accordion>
+    <Footer></Footer>
   </div>
 </template>
