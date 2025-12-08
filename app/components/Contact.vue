@@ -3,7 +3,7 @@
     <h2 class="mb-6"><slot></slot></h2>
     <div class="flex flex-col flex-1 gap-6">
       <div class="text">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+        <p>Hast du eine Idee, ein Projekt oder möchtest du einfach ins Gespräch kommen? Ich freue mich über jede Nachricht. Schreib mir gerne, ich antworte so schnell ich kann! </p>
       </div>
       <div class="contact flex flex-row gap-6">
         <h2><a href="https://github.com/lucamathuse">(GitHub)</a></h2>
