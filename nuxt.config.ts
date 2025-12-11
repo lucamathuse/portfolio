@@ -9,5 +9,4 @@ export default defineNuxtConfig({
       tailwindcss(),
     ],
   },
-  modules: ['motion-v/nuxt'],
 });
