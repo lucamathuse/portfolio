@@ -3,7 +3,7 @@
 @import "./typo.css";
 @import "./vars.css";
 
-/* @custom-variant dark (&:where(.dark, .dark *)); */
+/*@custom-variant dark (&:where(.dark, .dark *));*/
 
 body {
     @apply bg-primary dark:bg-secondary
@@ -20,4 +20,12 @@ body {
     border-image-width: 2px;
     border-image-outset: 0;
     border-image-repeat: round;
+}
+
+.link-cursor {
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="-1.5 -1.5 36 36" fill="none" stroke="%23bd410c" stroke-linecap="round" stroke-linejoin="round" id="Arrow-Up-Right--Streamline-Lucide" height="48" width="48"><desc>Arrow Up Right Streamline Icon: https://streamlinehq.com</desc><path d="M3.0250000000000004 3.0250000000000004h26.950000000000003v26.950000000000003" stroke-width="3"></path><path d="M3.0250000000000004 29.975 29.975 3.0250000000000004" stroke-width="3"></path></svg>') 36 36, auto;
+}
+
+.link-cursor-dark {
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="-1.5 -1.5 36 36" fill="none" stroke="%23eeecd8" stroke-linecap="round" stroke-linejoin="round" id="Arrow-Up-Right--Streamline-Lucide" height="48" width="48"><desc>Arrow Up Right Streamline Icon: https://streamlinehq.com</desc><path d="M3.0250000000000004 3.0250000000000004h26.950000000000003v26.950000000000003" stroke-width="3"></path><path d="M3.0250000000000004 29.975 29.975 3.0250000000000004" stroke-width="3"></path></svg>') 36 36, auto;
 }

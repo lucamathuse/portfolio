@@ -1,5 +1,15 @@
 @theme {
-  --color-primary: oklch(93.93% 0.027 102.24);
-  --color-secondary: oklch(54.50% 0.169 38.99);
+  --color-primary: oklch(93.93% 0.027 102.24); /* #eeecd8 */
+  --color-secondary: oklch(54.50% 0.169 38.99); /* #bd410c */
+  --color-accent: oklch(32.11% 0.000 0); /* #333333 */
+}
+
+/*
+
+@theme {
+  --color-primary: oklch(1 0 0);
+  --color-secondary: oklch(0.429 0.297278 264.052);
   --color-accent: oklch(32.11% 0.000 0);
 }
+
+*/
