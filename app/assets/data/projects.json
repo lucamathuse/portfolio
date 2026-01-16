@@ -19,5 +19,19 @@
         "stack": ["Bash"],
         "description": "Dieses kleine Skript vereinfacht die Erstellung von Advanced Custom Fields (ACF) Pro-Blöcken, indem es die erforderlichen Verzeichnisse und Dateien mit Standardinhalten in Ihrem Blockverzeichnis generiert. Es optimiert Ihren Arbeitsablauf, indem es die Ersteinrichtung automatisiert, sodass Sie sich auf die Erstellung benutzerdefinierter Blockfunktionen konzentrieren können.",
         "link": "https://github.com/lucamathuse/block-creator"
+    },
+    {
+        "id": "04",
+        "title": "Notion ToDo",
+        "stack": ["HTML", "CSS / SCSS", "JavaScript"],
+        "description": "Eine Chrome Extension, die Aufgaben in eine Notion Datenbank schreibt mithilfe der Notion API",
+        "link": "https://github.com/lucamathuse/notion-todo"
+    },
+        {
+        "id": "05",
+        "title": "Pomodoro Timer",
+        "stack": ["HTML", "CSS / SCSS", "JavaScript"],
+        "description": "Ein Pomodoro Timer als Chrome Extension",
+        "link": "https://github.com/lucamathuse/pomodoro"
     }
 ]
