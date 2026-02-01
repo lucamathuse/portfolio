@@ -1,14 +1,18 @@
 <template>
-  <div class="wrapper mt-16 lg:mt-36 ">
-    <h1>
-      <slot>Luca <br /> Mathuse</slot>
-    </h1>
-    <div class="flex flex-col md:flex-row gap-4 md:gap-16 mt-4">
-      <h2>(Fullstack-Entwickler @ freelance)</h2>
+    <div class="wrapper mt-16 lg:mt-36">
+        <h1>
+            <slot
+                >Luca <br />
+                Mathuse</slot
+            >
+        </h1>
+        <div class="flex flex-col md:flex-row gap-4 md:gap-16 mt-4">
+            <h2>
+                (Fullstack-Entwickler @
+                <a href="https://www.menke-it.de/">menke-it</a>)
+            </h2>
+        </div>
     </div>
-  </div>
 </template>
 
-<script lang="ts" setup>
-
-</script>
+<script lang="ts" setup></script>
